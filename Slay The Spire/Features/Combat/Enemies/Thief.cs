@@ -51,7 +51,7 @@ class Thief
     }
     public override void MakeMove()
     {
-        Move.Effect();
+        Move!.Effect();
         Move2?.Effect();
     }
     public void AssignMoveSet1()

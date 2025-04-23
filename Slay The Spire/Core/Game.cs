@@ -2,7 +2,7 @@ using System.Runtime.InteropServices;
 
 class Game
 {
-    bool devMode=false;
+    bool devMode=true;
     private Stack<State> states=new Stack<State>();
     public Charakter? player= new IceMan();
     private void InitVariables()
@@ -17,7 +17,7 @@ class Game
         states=new Stack<State>();
         if (devMode)
         {
-            states.Push(new StateCombatRoom(states, player!));
+            states.Push(new StateStartingRoom(states, player!));
         }
         else
         {        
@@ -30,11 +30,8 @@ class Game
         InitStates();
         
         while(states.Count>0)
-        {
             states.Peek().Update();
 
-            CheckFor.StateEnd(states);
-        }
         System.Console.WriteLine("Game closed");
     }
 }

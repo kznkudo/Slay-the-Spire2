@@ -40,3 +40,18 @@ c:\Users\RSL Akademie\.vscode\Projects\Slay The Spire\bin\Debug\net9.0\SlayTheSp
 c:\Users\RSL Akademie\.vscode\Projects\Slay The Spire\bin\Debug\net9.0\SlayTheSpire.pdb
 C:\Users\RSL Akademie\.vscode\Projects\Slay The Spire\obj\Debug\net9.0\SlayTheSpire.genruntimeconfig.cache
 C:\Users\RSL Akademie\.vscode\Projects\Slay The Spire\obj\Debug\net9.0\ref\SlayTheSpire.dll
+C:\Users\Kzn\.vscode\cli\Slay-the-Spire2\Slay The Spire\obj\Debug\net9.0\SlayTheSpire.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kzn\.vscode\cli\Slay-the-Spire2\Slay The Spire\obj\Debug\net9.0\SlayTheSpire.AssemblyInfoInputs.cache
+C:\Users\Kzn\.vscode\cli\Slay-the-Spire2\Slay The Spire\obj\Debug\net9.0\SlayTheSpire.AssemblyInfo.cs
+C:\Users\Kzn\.vscode\cli\Slay-the-Spire2\Slay The Spire\obj\Debug\net9.0\SlayTheSpire.csproj.CoreCompileInputs.cache
+C:\Users\Kzn\.vscode\cli\Slay-the-Spire2\Slay The Spire\obj\Debug\net9.0\SlayTheSpire.sourcelink.json
+C:\Users\Kzn\.vscode\cli\Slay-the-Spire2\Slay The Spire\obj\Debug\net9.0\SlayTheSpire.dll
+C:\Users\Kzn\.vscode\cli\Slay-the-Spire2\Slay The Spire\obj\Debug\net9.0\refint\SlayTheSpire.dll
+C:\Users\Kzn\.vscode\cli\Slay-the-Spire2\Slay The Spire\obj\Debug\net9.0\SlayTheSpire.pdb
+C:\Users\Kzn\.vscode\cli\Slay-the-Spire2\Slay The Spire\bin\Debug\net9.0\SlayTheSpire.exe
+C:\Users\Kzn\.vscode\cli\Slay-the-Spire2\Slay The Spire\bin\Debug\net9.0\SlayTheSpire.deps.json
+C:\Users\Kzn\.vscode\cli\Slay-the-Spire2\Slay The Spire\bin\Debug\net9.0\SlayTheSpire.runtimeconfig.json
+C:\Users\Kzn\.vscode\cli\Slay-the-Spire2\Slay The Spire\bin\Debug\net9.0\SlayTheSpire.dll
+C:\Users\Kzn\.vscode\cli\Slay-the-Spire2\Slay The Spire\bin\Debug\net9.0\SlayTheSpire.pdb
+C:\Users\Kzn\.vscode\cli\Slay-the-Spire2\Slay The Spire\obj\Debug\net9.0\SlayTheSpire.genruntimeconfig.cache
+C:\Users\Kzn\.vscode\cli\Slay-the-Spire2\Slay The Spire\obj\Debug\net9.0\ref\SlayTheSpire.dll

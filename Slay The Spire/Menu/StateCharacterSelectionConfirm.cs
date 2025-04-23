@@ -21,10 +21,11 @@ class StateCharacterSelectionConfirm
             switch (Console.ReadLine())
             {
                 case "1":
+                    states.Pop();
                     states.Push(new StateStartingRoom(states, player!));
                     break;
                 case "2":
-                    this.isEnd=true;
+                    states.Pop();
                     break;
                 default:
                     global::Gui.WrongInput();

@@ -8,17 +8,17 @@ class EnemyService
 
     public static void ChangeHp(int value)
     {
-        if(enemy.Block<(-value))
+        if(enemy!.Block<(-value))
             enemy.CurrentHp += enemy.Block + value;
         ChangeBlock(value);
     }
     public static void ChangeBlock(int value)
     {
-        enemy.Block+=value;
+        enemy!.Block+=value;
     }
     public static bool HasHp()
     {
-        if(enemy.CurrentHp==0)
+        if(enemy!.CurrentHp==0)
             return false;
         return true;
     }    

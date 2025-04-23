@@ -29,7 +29,7 @@ class StateMenu
             switch (Console.ReadKey(true).KeyChar)
             {
                 case '1':
-                    this.states.Push(new StateCharacterSelection(states, player));
+                    states.Push(new StateCharacterSelection(states, player));
                     break;
                 case '2':
                     if(isActiveRunExisting)
@@ -40,7 +40,7 @@ class StateMenu
                     System.Console.WriteLine("Hello from statistics");
                     break;
                 case '4':
-                    this.isEnd=true;
+                    states.Pop();
                     break;
                 default:
                     System.Console.WriteLine("invalid input, try again");

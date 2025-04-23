@@ -1,11 +1,13 @@
 class StateCombatRoom
     : State
 {
+    public new string Name{get;set;}
     private int turn = 0;
     protected Enemy? enemy;
     public StateCombatRoom(Stack<State> states, Charakter player) 
         : base(states, player)
     {
+        Name = "Monster";
         enemy = new Thief();
         new EnemyService(enemy!);
         player.Deck.ShuffleDeck();  
@@ -19,7 +21,7 @@ class StateCombatRoom
         global::Gui.Header("Room 1", ConsoleColor.White);
         System.Console.WriteLine("Turn "+turn);
         enemy!.Display();
-        player.Deck.ShowHand();
+        player!.Deck.ShowHand();
         global::Gui.MenuOption(player.Handsize+1, "End Turn");
         player.Display();
     }
@@ -31,7 +33,7 @@ class StateCombatRoom
     }
     public void StartRound()
     {
-        player.Init();
+        player!.Init();
         player.Deck.DrawHand(player.Handsize);
         turn++;
         StateGui();
@@ -43,7 +45,7 @@ class StateCombatRoom
         {
             input = Gui.GetInt();
             System.Console.WriteLine(input);
-            if(input == player.Deck.Hand.Count+1) //die nummer End Turn wurde gedrückt
+            if(input == player!.Deck.Hand.Count+1) //die nummer End Turn wurde gedrückt
                 return;
             else if(input>player.Deck.Hand.Count)
                 Gui.WrongInput();
@@ -57,9 +59,9 @@ class StateCombatRoom
     }
     public void EndRound()
     {
-        enemy.Block=0;
+        enemy!.Block=0;
         enemy.Turn();
-        player.Deck.RemoveHand();
+        player!.Deck.RemoveHand();
         
     }
 }

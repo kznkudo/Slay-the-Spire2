@@ -8,7 +8,7 @@ class StateStartingRoom
     }
     public override void StateGui()
     {
-        global::Gui.TextColor("Under construction.", ConsoleColor.Red);
+        global::Gui.TextColor("Under construction.\n", ConsoleColor.Red);
         global::Gui.MenuOption(1, "Continue");
         global::Gui.MenuOption(2, "Back");
     }
@@ -22,10 +22,11 @@ class StateStartingRoom
             switch (Console.ReadLine())
             {
                 case "1":
-                    states.Push(new StateCombatRoom(states, player!));
+                    states.Pop();
+                    states.Push(new StateMap(states, player!));
                     break;
                 case "2":
-                    this.isEnd=true;
+                    states.Pop();
                     break;
                 default:
                     System.Console.WriteLine("invalid input, try again");
