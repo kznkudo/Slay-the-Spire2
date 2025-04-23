@@ -1,0 +1,42 @@
+C:\Users\RSL Akademie\.vscode\Projects\SlayTheSpire\SlayTheSpire\bin\Debug\net9.0\SlayTheSpire.exe
+C:\Users\RSL Akademie\.vscode\Projects\SlayTheSpire\SlayTheSpire\bin\Debug\net9.0\SlayTheSpire.deps.json
+C:\Users\RSL Akademie\.vscode\Projects\SlayTheSpire\SlayTheSpire\bin\Debug\net9.0\SlayTheSpire.runtimeconfig.json
+C:\Users\RSL Akademie\.vscode\Projects\SlayTheSpire\SlayTheSpire\bin\Debug\net9.0\SlayTheSpire.dll
+C:\Users\RSL Akademie\.vscode\Projects\SlayTheSpire\SlayTheSpire\bin\Debug\net9.0\SlayTheSpire.pdb
+C:\Users\RSL Akademie\.vscode\Projects\SlayTheSpire\SlayTheSpire\obj\Debug\net9.0\SlayTheSpire.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RSL Akademie\.vscode\Projects\SlayTheSpire\SlayTheSpire\obj\Debug\net9.0\SlayTheSpire.AssemblyInfoInputs.cache
+C:\Users\RSL Akademie\.vscode\Projects\SlayTheSpire\SlayTheSpire\obj\Debug\net9.0\SlayTheSpire.AssemblyInfo.cs
+C:\Users\RSL Akademie\.vscode\Projects\SlayTheSpire\SlayTheSpire\obj\Debug\net9.0\SlayTheSpire.csproj.CoreCompileInputs.cache
+C:\Users\RSL Akademie\.vscode\Projects\SlayTheSpire\SlayTheSpire\obj\Debug\net9.0\SlayTheSpire.dll
+C:\Users\RSL Akademie\.vscode\Projects\SlayTheSpire\SlayTheSpire\obj\Debug\net9.0\refint\SlayTheSpire.dll
+C:\Users\RSL Akademie\.vscode\Projects\SlayTheSpire\SlayTheSpire\obj\Debug\net9.0\SlayTheSpire.pdb
+C:\Users\RSL Akademie\.vscode\Projects\SlayTheSpire\SlayTheSpire\obj\Debug\net9.0\SlayTheSpire.genruntimeconfig.cache
+C:\Users\RSL Akademie\.vscode\Projects\SlayTheSpire\SlayTheSpire\obj\Debug\net9.0\ref\SlayTheSpire.dll
+c:\Users\eisfe\.vscode\SlayTheSpire\bin\Debug\net9.0\SlayTheSpire.exe
+C:\Users\eisfe\.vscode\SlayTheSpire\bin\Debug\net9.0\SlayTheSpire.deps.json
+C:\Users\eisfe\.vscode\SlayTheSpire\bin\Debug\net9.0\SlayTheSpire.runtimeconfig.json
+c:\Users\eisfe\.vscode\SlayTheSpire\bin\Debug\net9.0\SlayTheSpire.dll
+c:\Users\eisfe\.vscode\SlayTheSpire\bin\Debug\net9.0\SlayTheSpire.pdb
+c:\Users\eisfe\.vscode\SlayTheSpire\obj\Debug\net9.0\SlayTheSpire.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\eisfe\.vscode\SlayTheSpire\obj\Debug\net9.0\SlayTheSpire.AssemblyInfoInputs.cache
+c:\Users\eisfe\.vscode\SlayTheSpire\obj\Debug\net9.0\SlayTheSpire.AssemblyInfo.cs
+c:\Users\eisfe\.vscode\SlayTheSpire\obj\Debug\net9.0\SlayTheSpire.csproj.CoreCompileInputs.cache
+c:\Users\eisfe\.vscode\SlayTheSpire\obj\Debug\net9.0\SlayTheSpire.dll
+c:\Users\eisfe\.vscode\SlayTheSpire\obj\Debug\net9.0\refint\SlayTheSpire.dll
+c:\Users\eisfe\.vscode\SlayTheSpire\obj\Debug\net9.0\SlayTheSpire.pdb
+C:\Users\eisfe\.vscode\SlayTheSpire\obj\Debug\net9.0\SlayTheSpire.genruntimeconfig.cache
+C:\Users\eisfe\.vscode\SlayTheSpire\obj\Debug\net9.0\ref\SlayTheSpire.dll
+c:\Users\RSL Akademie\.vscode\Projects\Slay The Spire\obj\Debug\net9.0\SlayTheSpire.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\RSL Akademie\.vscode\Projects\Slay The Spire\obj\Debug\net9.0\SlayTheSpire.AssemblyInfoInputs.cache
+c:\Users\RSL Akademie\.vscode\Projects\Slay The Spire\obj\Debug\net9.0\SlayTheSpire.AssemblyInfo.cs
+c:\Users\RSL Akademie\.vscode\Projects\Slay The Spire\obj\Debug\net9.0\SlayTheSpire.csproj.CoreCompileInputs.cache
+c:\Users\RSL Akademie\.vscode\Projects\Slay The Spire\obj\Debug\net9.0\SlayTheSpire.dll
+c:\Users\RSL Akademie\.vscode\Projects\Slay The Spire\obj\Debug\net9.0\refint\SlayTheSpire.dll
+c:\Users\RSL Akademie\.vscode\Projects\Slay The Spire\obj\Debug\net9.0\SlayTheSpire.pdb
+c:\Users\RSL Akademie\.vscode\Projects\Slay The Spire\bin\Debug\net9.0\SlayTheSpire.exe
+C:\Users\RSL Akademie\.vscode\Projects\Slay The Spire\bin\Debug\net9.0\SlayTheSpire.deps.json
+C:\Users\RSL Akademie\.vscode\Projects\Slay The Spire\bin\Debug\net9.0\SlayTheSpire.runtimeconfig.json
+c:\Users\RSL Akademie\.vscode\Projects\Slay The Spire\bin\Debug\net9.0\SlayTheSpire.dll
+c:\Users\RSL Akademie\.vscode\Projects\Slay The Spire\bin\Debug\net9.0\SlayTheSpire.pdb
+C:\Users\RSL Akademie\.vscode\Projects\Slay The Spire\obj\Debug\net9.0\SlayTheSpire.genruntimeconfig.cache
+C:\Users\RSL Akademie\.vscode\Projects\Slay The Spire\obj\Debug\net9.0\ref\SlayTheSpire.dll
