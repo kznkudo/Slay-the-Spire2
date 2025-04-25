@@ -17,7 +17,7 @@ class FrostPunch
     }
     public override void Effect()
     {
-        CharacterService.ChangeHp(Damage);
+        EnemyService.ChangeHp(-Damage);
 
         if(CharacterService.HasBlock())
             CharacterService.player.Deck.DrawHand(1);

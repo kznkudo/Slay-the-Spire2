@@ -3,25 +3,25 @@ using System.Runtime.InteropServices;
 class Game
 {
     bool devMode=true;
-    private Stack<State> states=new Stack<State>();
-    public Charakter? player= new IceMan();
+    private Stack<State> _states=new Stack<State>();
+    private Charakter? _player= new IceMan();
     private void InitVariables()
     {
-        new CharacterService(player!);
+        new CharacterService(_player!);
         //if data ist nicht vorhanden
             //player=null;
             //oder vielleicht player=data, wenn player null, dann kein spielstand vorrhanden(keine option load game, etc)
     }
     private void InitStates()
     {
-        states=new Stack<State>();
+        _states=new Stack<State>();
         if (devMode)
         {
-            states.Push(new StateStartingRoom(states, player!));
+            _states.Push(new StateMap(_states, _player!));
         }
         else
         {        
-            states.Push(new StateMenu(states, player));
+            _states.Push(new StateMenu(_states, _player));
         }
     }
     public void Run()
@@ -29,8 +29,8 @@ class Game
         InitVariables();
         InitStates();
         
-        while(states.Count>0)
-            states.Peek().Update();
+        while(_states.Count>0)
+            _states.Peek().Update();
 
         System.Console.WriteLine("Game closed");
     }

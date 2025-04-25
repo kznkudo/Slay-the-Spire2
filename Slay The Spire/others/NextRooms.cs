@@ -8,7 +8,7 @@ class NextRooms
     int _propMonster;
     int _propEvent;
     int _propMerchant;
-    int _propRoom2;
+    int _propRoom2=33;
 
      public NextRooms(Stack<State> states, Charakter player, int roomsCleared)
     {
@@ -29,7 +29,7 @@ class NextRooms
         switch(_roomsCleared)
         {
             case 1:
-                return new StateCombatRoom(_states, _player!);
+                return new StateMonster(_states, _player!);
             case 2:
             case 3:
             case 4:
@@ -54,18 +54,18 @@ class NextRooms
         int iRand = rand.Next(1,101);
 
         if(iRand<=_propMonster)
-            return new StateCombatRoom(_states, _player!);
+            return new StateMonster(_states, _player!);
         else if(iRand<=_propEvent)
             return new StateEvent(_states, _player!);
         else if(iRand<=_propMerchant)
-            return new StateMerchant(_states, _player!);
+            return new StateShop(_states, _player!);
         else
             return new StateRest(_states, _player!);
     }
     public void DecideRoom2()
     {
         Random rand = new Random();
-        int propRoom2 = rand.Next(0,34);
+        int propRoom2 = rand.Next(0,101);
 
         if(propRoom2<= _propRoom2)
             DecideRandomly();

@@ -1,11 +1,10 @@
-class StateEvent
+class StateTreasure
     : State
 {
-    public new string Name{get;set;}
-    public StateEvent(Stack<State> states, Charakter player) 
+    public StateTreasure(Stack<State> states, Charakter player) 
         : base(states, player)
     {
-        Name = "???";
+        Name = "Chest  Room";
     }
     public override void StateGui()
     {
@@ -14,5 +13,6 @@ class StateEvent
      
     public override void Update()
     {
+        
     }
 }

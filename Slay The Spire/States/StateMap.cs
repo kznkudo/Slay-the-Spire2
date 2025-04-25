@@ -15,9 +15,9 @@ class StateMap
     public override void StateGui()
     {
         Gui.Header("MAP", ConsoleColor.Green);
-        Gui.MenuOption(1, _nextState1!.Name);
+        Gui.MenuOption(1, _nextState1.Name);
         if(_nextState2!=null)
-            Gui.MenuOption(2, _nextState2!.Name);
+            Gui.MenuOption(2, _nextState2.Name);
     }
 
     public override void Update()
@@ -31,12 +31,12 @@ class StateMap
 
         StateGui();
         
-        switch(Console.ReadKey(true).KeyChar)
+        switch(Console.ReadLine())
         {
-            case '1':
+            case "1":
                 states.Push(_nextState1);
                 break;
-            case '2':
+            case "2":
                 if(_nextState2!=null)
                     states.Push(_nextState2);
                 else goto default;

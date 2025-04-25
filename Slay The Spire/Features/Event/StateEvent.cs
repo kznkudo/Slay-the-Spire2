@@ -1,11 +1,10 @@
-class StateBoss
+class StateEvent
     : State
 {
-    public override string Name => "Boss";
-    public StateBoss(Stack<State> states, Charakter player) 
+    public StateEvent(Stack<State> states, Charakter player) 
         : base(states, player)
     {
-        
+        Name = "???";
     }
     public override void StateGui()
     {

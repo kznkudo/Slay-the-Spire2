@@ -33,7 +33,7 @@ class PlayerDeck
     }
     public void DrawHand(int amount)
     {
-        while(Hand.Count<amount)
+        while(amount!=0)
         {
             if(Deck.Count==0)
             {
@@ -46,6 +46,8 @@ class PlayerDeck
             }
             Hand.Add(Deck[0]);
             Deck.Remove(Deck[0]);
+
+            amount--;
         }
     }
     public void RemoveHand()

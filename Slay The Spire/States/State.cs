@@ -1,6 +1,6 @@
 abstract class State
 {
-    public string Name = "default";
+    public string Name{get;set;}="default";
     protected Stack<State> states;
     protected Charakter? player;
     public State(Stack<State> states, Charakter? player)

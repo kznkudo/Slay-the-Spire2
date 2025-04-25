@@ -1,7 +1,6 @@
 class StateRest
     : State
 {
-    public new string Name{get;set;}
     public StateRest(Stack<State> states, Charakter player) 
         : base(states, player)
     {

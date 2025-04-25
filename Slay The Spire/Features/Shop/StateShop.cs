@@ -1,11 +1,10 @@
-class StateMerchant
+class StateShop
     : State
 {
-    public new string Name{get;set;}
-    public StateMerchant(Stack<State> states, Charakter player) 
+    public StateShop(Stack<State> states, Charakter player) 
         : base(states, player)
     {
-        
+        Name = "Shop";
     }
     public override void StateGui()
     {

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kzn\\.vscode\\cli\\Slay-the-Spire2\\Slay The Spire\\SlayTheSpire.csproj": {}
+    "C:\\Users\\RSL Akademie\\.vscode\\Projects\\Slay The Spire\\Slay-the-Spire2\\Slay The Spire\\SlayTheSpire.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kzn\\.vscode\\cli\\Slay-the-Spire2\\Slay The Spire\\SlayTheSpire.csproj": {
+    "C:\\Users\\RSL Akademie\\.vscode\\Projects\\Slay The Spire\\Slay-the-Spire2\\Slay The Spire\\SlayTheSpire.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kzn\\.vscode\\cli\\Slay-the-Spire2\\Slay The Spire\\SlayTheSpire.csproj",
+        "projectUniqueName": "C:\\Users\\RSL Akademie\\.vscode\\Projects\\Slay The Spire\\Slay-the-Spire2\\Slay The Spire\\SlayTheSpire.csproj",
         "projectName": "SlayTheSpire",
-        "projectPath": "C:\\Users\\Kzn\\.vscode\\cli\\Slay-the-Spire2\\Slay The Spire\\SlayTheSpire.csproj",
-        "packagesPath": "C:\\Users\\Kzn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kzn\\.vscode\\cli\\Slay-the-Spire2\\Slay The Spire\\obj\\",
+        "projectPath": "C:\\Users\\RSL Akademie\\.vscode\\Projects\\Slay The Spire\\Slay-the-Spire2\\Slay The Spire\\SlayTheSpire.csproj",
+        "packagesPath": "C:\\Users\\RSL Akademie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RSL Akademie\\.vscode\\Projects\\Slay The Spire\\Slay-the-Spire2\\Slay The Spire\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kzn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\RSL Akademie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
