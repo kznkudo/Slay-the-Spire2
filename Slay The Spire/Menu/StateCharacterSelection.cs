@@ -1,19 +1,19 @@
-class StateCharacterSelection 
+class StateCharacterSelection
     : State
 {
-    public StateCharacterSelection(Stack<State> states, Charakter? player) 
+    public StateCharacterSelection(Stack<State> states, Charakter? player)
         : base(states, player)
     {
-        
+
     }
     public override void StateGui()
     {
         global::Gui.MenuTitle("Character Selection");
-        global::Gui.MenuOption(1,"Iceman");
-        global::Gui.MenuOption(2,"Back");
+        global::Gui.MenuOption(1, "Iceman");
+        global::Gui.MenuOption(2, "Back");
     }
-        
-     
+
+
     public override void Update()
     {
         StateGui();
@@ -22,16 +22,16 @@ class StateCharacterSelection
             switch (Console.ReadLine())
             {
                 case "1":
-                    states.Pop();
-                    states.Push(new StateCharacterSelectionConfirm(states, player!));
+                    _states.Pop();
+                    _states.Push(new StateCharacterSelectionConfirm(_states, _player!));
                     break;
                 case "2":
-                    states.Pop();
+                    _states.Pop();
                     break;
                 default:
                     global::Gui.WrongInput();
                     break;
             }
-        } while (states.Peek()==this);
+        } while (_states.Peek() == this);
     }
 }

@@ -1,7 +1,7 @@
 class StateEvent
     : State
 {
-    public StateEvent(Stack<State> states, Charakter player) 
+    public StateEvent(Stack<State> states, Charakter player)
         : base(states, player)
     {
         Name = "???";
@@ -9,8 +9,8 @@ class StateEvent
     public override void StateGui()
     {
     }
-        
-     
+
+
     public override void Update()
     {
     }

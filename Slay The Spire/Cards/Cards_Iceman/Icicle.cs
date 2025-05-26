@@ -1,25 +1,25 @@
-class Icicle 
+class Icicle
     : Card
 {
     private int manaCost = 0;
-    public override Type Name{get;set;}
+    public override Type Name { get; set; }
     public int ManaCost
     {
         get
         {
-            if(CharacterService.HasBlock())
+            if (CharacterService.HasBlock())
                 return 0;
             return manaCost;
         }
         set => value = manaCost;
     }
-    public int Damage{get;set;}
+    public int Damage { get; set; }
 
     public Icicle()
     {
-        Name=typeof(Icicle);
-        Damage=3;
-        ManaCost=1;
+        Name = typeof(Icicle);
+        Damage = 3;
+        ManaCost = 1;
     }
     public override void Play()
     {

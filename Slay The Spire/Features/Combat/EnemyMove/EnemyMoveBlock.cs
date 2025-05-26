@@ -1,11 +1,11 @@
 class EnemyMoveBlock
     : EnemyMove
 {
-    public string Name{get;set;}="block";
-    public int Value{get;set;}
+    public string Name { get; set; } = "block";
+    public int Value { get; set; }
     public EnemyMoveBlock(int value)
     {
-        Value=value;
+        Value = value;
     }
     public void Effect()
     {

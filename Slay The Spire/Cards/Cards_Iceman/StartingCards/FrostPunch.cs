@@ -1,14 +1,14 @@
-class FrostPunch 
+class FrostPunch
     : Card
 {
-    public override Type Name{get;set;}
-    public int ManaCost{get;set;} 
-    public int Damage {get;set;}
+    public override Type Name { get; set; }
+    public int ManaCost { get; set; }
+    public int Damage { get; set; }
     public FrostPunch()
     {
-        Name=typeof(FrostPunch);
-        ManaCost=1;
-        Damage=9;
+        Name = typeof(FrostPunch);
+        ManaCost = 1;
+        Damage = 9;
     }
     public override void Play()
     {
@@ -19,7 +19,7 @@ class FrostPunch
     {
         EnemyService.ChangeHp(-Damage);
 
-        if(CharacterService.HasBlock())
+        if (CharacterService.HasBlock())
             CharacterService.player.Deck.DrawHand(1);
     }
     public override string Description()
@@ -27,5 +27,5 @@ class FrostPunch
         return $" [Deal {Damage} damage. If you have block, draw a card.]";
     }
     // public abstract void Effect();
-    
+
 }

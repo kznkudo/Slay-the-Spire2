@@ -8,25 +8,25 @@ class NextRooms
     int _propMonster;
     int _propEvent;
     int _propMerchant;
-    int _propRoom2=33;
+    int _propRoom2 = 33;
 
-     public NextRooms(Stack<State> states, Charakter player, int roomsCleared)
+    public NextRooms(Stack<State> states, Charakter player, int roomsCleared)
     {
-        _roomsCleared=roomsCleared;
+        _roomsCleared = roomsCleared;
         _states = states;
         _player = player;
     }
 
     public void InitVariables()
     {
-        _propMonster=45;//61
-        _propEvent=_propMonster+22;//83
-        _propMerchant=_propEvent+5;//88
+        _propMonster = 45;//61
+        _propEvent = _propMonster + 22;//83
+        _propMerchant = _propEvent + 5;//88
         // rest site is everything else till 100, so 22%.
     }
     public State DecideRoom()
     {
-        switch(_roomsCleared)
+        switch (_roomsCleared)
         {
             case 1:
                 return new StateMonster(_states, _player!);
@@ -51,13 +51,13 @@ class NextRooms
     public State DecideRandomly()
     {
         Random rand = new Random();
-        int iRand = rand.Next(1,101);
+        int iRand = rand.Next(1, 101);
 
-        if(iRand<=_propMonster)
+        if (iRand <= _propMonster)
             return new StateMonster(_states, _player!);
-        else if(iRand<=_propEvent)
+        else if (iRand <= _propEvent)
             return new StateEvent(_states, _player!);
-        else if(iRand<=_propMerchant)
+        else if (iRand <= _propMerchant)
             return new StateShop(_states, _player!);
         else
             return new StateRest(_states, _player!);
@@ -65,9 +65,9 @@ class NextRooms
     public void DecideRoom2()
     {
         Random rand = new Random();
-        int propRoom2 = rand.Next(0,101);
+        int propRoom2 = rand.Next(0, 101);
 
-        if(propRoom2<= _propRoom2)
+        if (propRoom2 <= _propRoom2)
             DecideRandomly();
     }
 

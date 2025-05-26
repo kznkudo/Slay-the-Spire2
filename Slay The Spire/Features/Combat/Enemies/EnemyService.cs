@@ -1,25 +1,25 @@
 class EnemyService
 {
-    private static Enemy? enemy;
+    private static Enemy? _enemy;
     public EnemyService(Enemy Character)
     {
-        enemy = Character;
+        _enemy = Character;
     }
 
-    public static void ChangeHp(int value)
+    public static void ChangeHp(int _value)
     {
-        if(enemy!.Block<(-value))
-            enemy.CurrentHp += enemy.Block + value;
-        ChangeBlock(value);
+        if (_enemy!.Block < (-_value))
+            _enemy.CurrentHp += _enemy.Block + _value;
+        ChangeBlock(_value);
     }
-    public static void ChangeBlock(int value)
+    public static void ChangeBlock(int _value)
     {
-        enemy!.Block+=value;
+        _enemy!.Block += _value;
     }
     public static bool HasHp()
     {
-        if(enemy!.CurrentHp==0)
+        if (_enemy!.CurrentHp == 0)
             return false;
         return true;
-    }    
+    }
 }

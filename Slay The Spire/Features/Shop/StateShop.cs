@@ -1,7 +1,7 @@
 class StateShop
     : State
 {
-    public StateShop(Stack<State> states, Charakter player) 
+    public StateShop(Stack<State> states, Charakter player)
         : base(states, player)
     {
         Name = "Shop";
@@ -9,8 +9,8 @@ class StateShop
     public override void StateGui()
     {
     }
-        
-     
+
+
     public override void Update()
     {
     }

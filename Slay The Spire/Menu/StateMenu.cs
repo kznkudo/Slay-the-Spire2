@@ -1,21 +1,21 @@
 using System;
 
-class StateMenu 
+class StateMenu
     : State
 {
-    bool isActiveRunExisting=false;
-    public StateMenu(Stack<State> states, Charakter? player) 
+    bool isActiveRunExisting = false;
+    public StateMenu(Stack<State> states, Charakter? player)
         : base(states, player)
     {
-    
+
     }
     public override void StateGui()
     {
         Gui.MenuTitle("Slay the Spire 2");
 
-        int i=1;
+        int i = 1;
         Gui.MenuOption(i, "Play");
-        if(isActiveRunExisting)
+        if (isActiveRunExisting)
             Gui.MenuOption(++i, "Load Game");
         Gui.MenuOption(++i, "Statistics");
         Gui.MenuOption(++i, "Quit");
@@ -29,10 +29,10 @@ class StateMenu
             switch (Console.ReadKey(true).KeyChar)
             {
                 case '1':
-                    states.Push(new StateCharacterSelection(states, player));
+                    _states.Push(new StateCharacterSelection(_states, _player));
                     break;
                 case '2':
-                    if(isActiveRunExisting)
+                    if (isActiveRunExisting)
                         System.Console.WriteLine("loading game...");
                     else goto case '3';
                     break;
@@ -40,12 +40,12 @@ class StateMenu
                     System.Console.WriteLine("Hello from statistics");
                     break;
                 case '4':
-                    states.Pop();
+                    _states.Pop();
                     break;
                 default:
                     System.Console.WriteLine("invalid input, try again");
                     break;
-            }        
-        } while (states.Peek()==this);    
-    }       
+            }
+        } while (_states.Peek() == this);
+    }
 }

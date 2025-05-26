@@ -1,7 +1,7 @@
 class StateBoss
     : State
 {
-    public StateBoss(Stack<State> states, Charakter player) 
+    public StateBoss(Stack<State> states, Charakter player)
         : base(states, player)
     {
         Name = "Boss";
@@ -9,8 +9,8 @@ class StateBoss
     public override void StateGui()
     {
     }
-        
-     
+
+
     public override void Update()
     {
     }
