@@ -2,17 +2,16 @@ class StateMonster
     : State
 {
     private int _turn = 0;
-    protected Enemy? _enemy= new Thief();
+    protected Enemy? _enemy = new Thief();
     public StateMonster(Stack<State> _states, Charakter _player)
         : base(_states, _player)
     {
         Name = "Monster";
-        new EnemyService(_enemy!);
         _player.Deck.ShuffleDeck();
     }
     public void LoadEnemy() //hab ich geschrieben, bevor ich auf die idee kam, ihn direkt im konstruktor anzulegen
     {
-
+        new EnemyService(_enemy!);
     }
     public override void StateGui()
     {
@@ -25,9 +24,13 @@ class StateMonster
     }
     public override void Update()
     {
-        StartRound();
-        PlayRound();
-        EndRound();
+        LoadEnemy();
+        while (true)
+        {
+            StartRound();
+            PlayRound();
+            EndRound();
+        }
     }
     public void StartRound()
     {
